@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/83/791/HD-wallpaper-anime-landscape-cityscape-scenic-sunset-anime-girl-anime.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 30vw;
+}
+
+.container{
+    height: 100%;
+    align-items: centers;
+}
+
+.cont_but{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    margin: 10px 0 10px 0;
+}
+
+#btnNo {
+    cursor: pointer;
+    background-color: azure;
+    margin-right: 25px;
+    width: 8%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px black;
+}
+
+
+#btnSi {
+    cursor: pointer;
+    background-color: azure;
+    margin-right: 25px;
+    width: 8%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px black;
+}
+
+
